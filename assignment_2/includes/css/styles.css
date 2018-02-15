@@ -1,0 +1,171 @@
+   #navigation {
+       background: #000000;
+       font-family: 'Patua One', cursive;
+       font-size: 16px;
+   }
+   #navi{
+    align-items: end;
+   }
+   .navbar-nav > li > .dropdown-menu { 
+    background-color: #F0FFFF;
+  }
+   #navi li a {
+       color:   #DAA520;
+   }
+   .navbar-brand {
+       padding-top: 8px;
+       padding-bottom: 0;
+       position: absolute;
+       top: -10px;
+       z-index: 3;
+   }
+   #searchInput {
+       width: 200px;
+   }
+
+
+   
+   #myCarousel {
+       margin-top: 50px;
+   }
+   .carousel-caption {
+       font-size: 24px;
+   }
+   .carousel-caption h4 {
+       font-size: 32px;
+   }
+   #myCarousel .item {
+       height: 630px;
+   }
+   #slide1 {
+       background: url('../../images/climate.jpeg') top center no-repeat;
+       background-size: cover;
+   }
+   #slide2 {
+       background: url('../../images/fruits.jpg') top center no-repeat;
+       background-size: cover;
+   }
+   #slide3 {
+       background: url('../../images/forests.jpg') top center no-repeat;
+       background-size: cover;
+   }
+   #slide4 {
+       background: url('../../images/water.jpg') top center no-repeat;
+       background-size: cover;
+   }
+   #slide5 {
+       background: url('../../images/oceans.jpg') top center no-repeat;
+       background-size: cover;
+   }
+   #slide6 {
+       background: url('../../images/wild.jpg') top center no-repeat;
+       background-size: cover;
+   }
+   
+   
+
+   .jumbotron {
+    font-family: 'Patua One', cursive;
+       background-image: url("../../images/back3.jpg");
+       background-size: cover;
+       color: white;
+   }
+
+
+
+   #featuresHeading {
+    font-family: 'Patua One', cursive;
+       text-align: center;
+   }
+   #features {
+      font-family: 'Patua One', cursive;
+       text-align: center;
+       font-size: 16px;
+
+   }
+   #features img {
+       margin: 0 0 20px;
+   }
+
+
+   footer {
+       background: #333;
+       color: #eee;
+       font-size: 11px;
+       padding: 20px;
+       font-family: 'Patua One', cursive;
+   }
+
+
+   @media (max-width: 480px) {}
+
+   @media (max-width: 768px) {
+
+       #myCarousel .item {
+           height: 310px;
+       }
+
+       #slide1 {
+           background: url('../../images/climate.jpeg') top center no-repeat;
+           background-size: cover;
+       }
+       #slide2 {
+           background: url('../../images/fruits.jpg') top center no-repeat;
+           background-size: cover;
+       }
+       #slide3 {
+           background: url('../../images/forests.jpg') top center no-repeat;
+           background-size: cover;
+       }
+       #slide4 {
+           background: url('../../images/water.jpg') top center no-repeat;
+           background-size: cover;
+       }
+       #slide5 {
+           background: url('../../images/oceans.jpg') top center no-repeat;
+           background-size: cover;
+       }
+       #slide6 {
+           background: url('../../images/wild.jpg') top center no-repeat;
+           background-size: cover;
+       }
+
+       .carousel-caption {
+           font-size: 16px;
+       }
+
+       .carousel-caption h4 {
+           font-size: 22px;
+       }
+   }
+   /* Large desktop */
+/*@media (min-width: 1200px) {
+
+   #myCarousel .item { height: 800px; }
+   
+   #slide1 {
+   background: url('../../images/climate.jpeg') top center no-repeat;
+   background-size: cover;
+   }
+   #slide2 {
+      background: url('../../images/food.jpg') top center no-repeat;
+      background-size: cover;
+   }
+   #slide3 {
+      background: url('../../images/forests.jpg') top center no-repeat;
+      background-size: cover;
+   }
+   #slide4 {
+      background: url('../../images/water.jpg') top center no-repeat;
+      background-size: cover;
+   }
+   #slide5 {
+      background: url('../../images/oceans.jpg') top center no-repeat;
+      background-size: cover;
+   }
+   #slide6 {
+      background: url('../../images/wild.jpg') top center no-repeat;
+      background-size: cover;
+   }
+
+}*/
