@@ -3,15 +3,19 @@
        font-family: 'Patua One', cursive;
        font-size: 16px;
    }
-   #navi{
-    align-items: end;
+
+   #navi {
+       align-items: end;
    }
-   .navbar-nav > li > .dropdown-menu { 
-    background-color: #F0FFFF;
-  }
+
+   .navbar-nav>li>.dropdown-menu {
+       background-color: #F0FFFF;
+   }
+
    #navi li a {
-       color:   #DAA520;
+       color: #DAA520;
    }
+
    .navbar-brand {
        padding-top: 8px;
        padding-bottom: 0;
@@ -19,70 +23,96 @@
        top: -10px;
        z-index: 3;
    }
+
    #searchInput {
        width: 200px;
    }
 
 
-   
+
    #myCarousel {
        margin-top: 50px;
    }
+
    .carousel-caption {
        font-size: 24px;
    }
+
    .carousel-caption h4 {
        font-size: 32px;
    }
+
    #myCarousel .item {
        height: 630px;
    }
+
    #slide1 {
        background: url('../../images/climate.jpeg') top center no-repeat;
        background-size: cover;
    }
+
    #slide2 {
        background: url('../../images/fruits.jpg') top center no-repeat;
        background-size: cover;
    }
+
    #slide3 {
        background: url('../../images/forests.jpg') top center no-repeat;
        background-size: cover;
    }
+
    #slide4 {
        background: url('../../images/water.jpg') top center no-repeat;
        background-size: cover;
    }
+
    #slide5 {
        background: url('../../images/oceans.jpg') top center no-repeat;
        background-size: cover;
    }
+
    #slide6 {
        background: url('../../images/wild.jpg') top center no-repeat;
        background-size: cover;
    }
-   
-   
+
+
 
    .jumbotron {
-    font-family: 'Patua One', cursive;
+       font-family: 'Patua One', cursive;
        background-image: url("../../images/back3.jpg");
        background-size: cover;
        color: white;
    }
+    #tabs{
+      font-family: 'Patua One', cursive;
+      font-size: 16px;
+    }
+   .planepi {
+       max-height: 200px;
+       min-height: 200px;
+       overflow: hidden;
+       height: 100%;
+       width: 100%;
+   }
 
+   .planepi img {
+       max-width: 100%;
+       max-height: 100%;
+   }
 
 
    #featuresHeading {
-    font-family: 'Patua One', cursive;
+       font-family: 'Patua One', cursive;
        text-align: center;
    }
+
    #features {
-      font-family: 'Patua One', cursive;
+       font-family: 'Patua One', cursive;
        text-align: center;
        font-size: 16px;
-
    }
+
    #features img {
        margin: 0 0 20px;
    }
@@ -139,7 +169,7 @@
        }
    }
    /* Large desktop */
-/*@media (min-width: 1200px) {
+   /*@media (min-width: 1200px) {
 
    #myCarousel .item { height: 800px; }
    
